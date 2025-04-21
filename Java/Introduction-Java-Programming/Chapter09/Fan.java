@@ -46,6 +46,7 @@ public class Fan {
         color = "blue";
     }
 
+    @Override
     public String toString() {
         String fanStatus = "";
         if (this.on) {

@@ -17,7 +17,7 @@ public class PrimeNumberMethod_6_10 {
         }
     }
 
-    public static boolean isPrime(int number) {
+    static boolean isPrime(int number) {
         boolean flag = true;
         for (int i = 2; i <= (int) Math.sqrt(number); i++) {
             if (number % i == 0) {
