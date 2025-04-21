@@ -18,7 +18,7 @@ public class OccurrencesOfCharacter_6_23 {
         int count = 0;
         for (int i =0; i < str.length(); i++){
             if (str.charAt(i) == a){
-                count +=1;
+                count++;
             }
         }
         return count;

@@ -8,11 +8,11 @@ public class RandomNumberChooser_07_13 {
         String[] inputChar = inputString.split(" ");
         scanner.close();
         int[] inputNumber = new int[inputChar.length];
-        for (int i =0; i < inputNumber.length;i++){
+        for (int i = 0; i < inputNumber.length; i++) {
             inputNumber[i] = Integer.parseInt(inputChar[i]);
         }
         int random = getRandom(inputNumber);
-        System.out.printf("The random number is: %d",random);
+        System.out.printf("The random number is: %d", random);
     }
 
     public static int getRandom(int... numbers) {
